@@ -1,0 +1,21 @@
+{
+  "name": "brokerdesk-selected-modules",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Selected modules from BrokerDesk. Viewing only.",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test src/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.39.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "typescript": "^5"
+  }
+}
